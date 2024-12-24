@@ -1,3 +1,4 @@
+import { Key } from '../Kbd/styles'
 import { CardCount, CardInfo, CellCard } from './styles'
 
 type Props = {
@@ -11,7 +12,7 @@ const Cell = ({ name, ckey }: Props) => (
       <p>{name}</p>
     </div>
     <CardInfo>
-      <p>{ckey}</p>
+      <Key>{ckey}</Key>
       <CardCount>
         <p>(0)</p>
         <p>0%</p>
